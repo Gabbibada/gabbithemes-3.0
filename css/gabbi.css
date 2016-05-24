@@ -1,0 +1,146 @@
+/*header*/
+#header {
+    /*styles for sticky menu*/
+    background-color: #353a40;
+    border: 0 none;
+    margin: 0;
+
+    -webkit-transition: background-color 800ms linear;
+    -moz-transition: background-color 800ms linear;
+    -ms-transition: background-color 800ms linear;
+    -o-transition: background-color 800ms linear;
+    transition: background-color 800ms linear;
+}
+
+#header .navbar-brand img{
+    display: block;  
+    padding-left: 12px;  
+    color: #ffffff;
+    width: 100%;
+    padding: 6px 15px;
+    position: relative;  
+}
+
+/*carousel*/
+#land {
+    background-image: url(../img/background/bg.jpg);
+    background-size: 100%;
+}
+
+.social-links {
+    margin-top: 5%;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a {
+    color: rgba(255, 255, 255, 0.3);
+    display: block;
+    margin: 0 6px;
+}
+
+.social-links li a:hover {
+    color: #fff;
+}
+.parallax:after {
+    background-image: url(../img/overlay.png);
+}
+
+h2.carousel-introtext.wow.bounceInDown.animated {
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: none;
+    position: inherit;
+    text-align: center;
+}
+
+h3.wow.slideInLeft.animated {
+    font-size: 38px;
+    font-weight: 300;
+    text-transform: none;
+    position: inherit;
+    text-align: center;
+}
+
+p.wow.slideInRight.animated {
+    font-weight: 300;
+    text-transform: none;
+    position: inherit;
+    text-align: center;
+}
+
+/*features*/
+.section_header2 {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 0 15px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 100;
+    position: relative;
+}
+
+.section_header2:after {
+    content: '';
+    position: absolute;
+    /*background: url(../img/features/icon.png);*/
+    bottom: -25px;
+    left: 45%;
+    margin-left: -8px;
+    height: 49px;
+    width: 47px;
+    border-radius: 50%;
+}
+
+.single_teaser p.introtext {
+    font-size: 15px;
+}
+
+.single_teaser h3 {
+    font-size: 20px;
+}
+
+/*about*/
+.left_icons, .left_icons h3 {
+    font-size: 15px;
+}
+
+.left_icons [class^="rt-icon-"] {
+    display: block;
+    font-size: 38px;
+    background-color: #F85B23;
+    color: #fff;
+    border-radius: 1px;
+    padding: 16px;
+    margin: 22px 22px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.left_icons:hover, .left_icons:hover h3 {
+    background-color: #ff2f00;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+/*progress*/
+#progress {
+    background-image: url(../img/features/progress.jpg);
+}
+
+/*skill*/
+.skill img {
+    width: 80%;
+    height: 80%;
+}
+
+/*p-view*/
+.p-view, .p-link {
+    top: 35% !important;    
+}  
